@@ -1,10 +1,8 @@
-sheepsAndWolfList = [ true,  true,  true,  false, true,  true,  true,  true , true,  false, true,  false, true,  false, false, true , true,  true,  true,  true , false, false, true,  true ]
-
-    wolfs = [ false, false, false ];
+let sheepsAndWolfList = [ true,  true,  true,  false, true,  true,  true,  true , true,  false, true,  false, true,  false, false, true , true,  true,  true,  true , false, false, true,  true ]
+let wolfs = [ false, false, false ];
 
 function countingSheeps(sheepsAndWolf) {
     let sheeps_acount = 0;
-
     let wolfs_acount = 0;
 
     for (let i = 0; i < sheepsAndWolf.length; i++) {
